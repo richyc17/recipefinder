@@ -1,6 +1,7 @@
 Capybara.default_driver = :poltergeist
 
 Capybara.app_host = "http://localhost:3000"
+# Capybara.app_host = "http://0.0.0.0:8080"
 
 describe "Recipes App" do
   it "displays 'Kahlúa-Spiked' when request parameter 'search' is mocha" do
